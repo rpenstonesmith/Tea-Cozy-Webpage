@@ -1,0 +1,151 @@
+  body {
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 22px;
+    line-height: normal;
+    background-color: black;
+    color:seashell;
+    opacity:0.9;
+    text-align: center;
+  }
+
+  .flex-container {
+    height: 69px;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+    background-color:black;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo{
+    display: inline-flex;
+    flex-direction: row;
+    height: 50px;
+    margin-left: 10px;
+  }
+
+  .navigation li {
+    list-style: none;
+    display: inline-flex;
+    padding-right: 25px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: seashell;
+  }
+
+  .mission-text {
+    background-color: black;
+    color: seashell;
+    text-align: center;
+    position: relative;
+    top: 300px;
+    padding: 20px 0 20px 0;
+    line-height: 50px;
+  }
+
+  .banner {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.banner mission-text {
+    align-items: center;
+    top: 100px;
+}
+
+.our-mission h2 {
+    padding: 20px;
+}
+.month-text h2 {
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.tea img {
+    height: 200px;
+    width: 300px;
+    margin-top: 30px;
+}
+
+.tea figcaption {
+    margin-top: 10px;
+    position: relative;
+    font-weight: bold;
+ 
+}
+
+.tea-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: space-evenly;
+}
+
+.location-container {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-size: cover;
+    height: 600px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.locations {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.location-container h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    color: seashell;
+}
+
+.address {
+    width: 300px;
+    height: 300px;
+    background-color:black;
+    opacity: 1;
+    text-align:center;
+    position:relative;
+    top: 125px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .address h3 {
+    padding-top: 20px;
+  }
+
+  .address h4 {
+    padding-top: 40px;
+    font-weight: normal;
+  }
+
+  .contact-container {
+    height: 200px;
+    margin-top: 20px;
+  }
+
+  .contact-info h5 {
+    padding-top: 40px;
+  }
+
+  .copyright-info h5 {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
