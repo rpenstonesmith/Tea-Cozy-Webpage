@@ -9,9 +9,11 @@
   }
 
   .flex-container {
+    
     height: 69px;
     width: 100%;
     z-index: 2;
+    top: 0px;
     position: fixed;
     background-color:black;
     border-bottom: 1px solid seashell;
@@ -98,32 +100,32 @@
     margin-top: 100px;
     margin-left: 50px;
     margin-right: 50px;
+    
 }
 
 .locations {
-    display: inline-flex;
-    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .location-container h2 {
     font-size: 32px;
     font-weight: bold;
     text-align: center;
-    position: relative;
-    top: 100px;
+    padding: 50px;
+    margin: 0px;
     color: seashell;
 }
 
 .address {
     width: 300px;
-    height: 300px;
+    height: 400px;
     background-color:black;
     opacity: 1;
     text-align:center;
     position:relative;
-    top: 125px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin: 20px;
   }
 
   .address h3 {
